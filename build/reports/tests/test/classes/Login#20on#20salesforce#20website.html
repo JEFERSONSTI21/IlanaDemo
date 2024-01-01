@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class Login on salesforce website</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class Login on salesforce website</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/default-package.html">default-package</a> &gt; Login on salesforce website</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">2</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">1</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">1m49.65s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox failures" id="successRate">
+<div class="percent">50%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Failed tests</a>
+</li>
+<li>
+<a href="#tab1">Tests</a>
+</li>
+<li>
+<a href="#tab2">Standard output</a>
+</li>
+<li>
+<a href="#tab3">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="registration is done in forms"></a>
+<h3 class="failures">registration is done in forms</h3>
+<span class="code">
+<pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button id=&quot;submit&quot; type=&quot;submit&quot; class=&quot;btn btn-primary&quot;&gt;...&lt;/button&gt; is not clickable at point (890, 524). Other element would receive the click: &lt;iframe frameborder=&quot;0&quot; src=&quot;https://4fbe36307f8f2cc5fc03158536294989.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html&quot; id=&quot;google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0&quot; title=&quot;3rd party ad content&quot; name=&quot;&quot; scrolling=&quot;no&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=&quot;970&quot; height=&quot;90&quot; data-is-safeframe=&quot;true&quot; sandbox=&quot;allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation&quot; role=&quot;region&quot; aria-label=&quot;Advertisement&quot; tabindex=&quot;0&quot; data-google-container-id=&quot;1&quot; style=&quot;border: 0px; vertical-align: bottom;&quot; data-load-complete=&quot;true&quot;&gt;&lt;/iframe&gt;
+  (Session info: chrome=120.0.6099.71)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BOG-59S3TQ3', ip: '192.168.1.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.71, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\jpedraze\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54839}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9c36a841347983b040a9eb9de38658ef
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.click(WebElementFacadeImpl.java:1231)
+	at net.serenitybdd.screenplay.actions.ClickOnTarget.performAs(ClickOnTarget.java:13)
+	at net.serenitybdd.screenplay.actions.ClickOnTarget$ByteBuddy$ajR4jwxf.performAs$accessor$poSlrb6w(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:471)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:451)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:424)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:180)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:167)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:75)
+	at net.serenitybdd.screenplay.actions.ClickOnTarget$ByteBuddy$ajR4jwxf.performAs(Unknown Source)
+	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:233)
+	at net.serenitybdd.screenplay.Actor.perform(Actor.java:214)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:171)
+	at org.ilana.my.demo.tasks.Forms.performAs(Forms.java:81)
+	at org.ilana.my.demo.tasks.Forms$ByteBuddy$kevghV1L.performAs$accessor$dQH8zWYS(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:471)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:451)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:424)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:180)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:167)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:75)
+	at org.ilana.my.demo.tasks.Forms$ByteBuddy$kevghV1L.performAs(Unknown Source)
+	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:233)
+	at net.serenitybdd.screenplay.Actor.perform(Actor.java:214)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:171)
+	at org.ilana.my.demo.stepdefinitions.FormsStepDefinitions.registrationOfTheFormIsCarriedOut(FormsStepDefinitions.java:23)
+	at ✽.Registration of the form is carried out(src/test/resources/features/DemoUno.feature:11)
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="failures">registration is done in forms</td>
+<td class="failures">36.317s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="success">registration is done in forms</td>
+<td class="success">1m13.34s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>    ?[32mGiven ?[0m?[32muser enters the demo page?[0m                      ?[90m# HomeStepDefinitions.thatTheUserEntersTheSalesforceSite()?[0m
+    ?[32mWhen ?[0m?[32ma user fills out the login form correctly?[0m       ?[90m# HomeStepDefinitions.a_user_fills_out_the_login_form_correctly()?[0m
+true
+    ?[32mThen ?[0m?[32mthe home successful?[0m                             ?[90m# HomeStepDefinitions.the_login_is_successful()?[0m
+
+  @demo @CasoDos
+  Scenario: registration is done in forms ?[90m# src/test/resources/features/DemoDos.feature:10?[0m
+2
+1
+2
+1
+    ?[32mWhen ?[0m?[32mlink verification process?[0m        ?[90m# LinksStepDefinitions.linkVerificationProcess()?[0m
+    ?[32mGiven ?[0m?[32muser enters the demo page?[0m                      ?[90m# HomeStepDefinitions.thatTheUserEntersTheSalesforceSite()?[0m
+    ?[32mWhen ?[0m?[32ma user fills out the login form correctly?[0m       ?[90m# HomeStepDefinitions.a_user_fills_out_the_login_form_correctly()?[0m
+true
+    ?[32mThen ?[0m?[32mthe home successful?[0m                             ?[90m# HomeStepDefinitions.the_login_is_successful()?[0m
+
+  @demo @CasoUno
+  Scenario Outline: registration is done in forms ?[90m# src/test/resources/features/DemoUno.feature:17?[0m
+      | firstName | lastName | email                      | mobile     |
+      | Jeferson  | Pedraza  | jeferson.pedraza@gmail.com | 3504515805 |
+
+proceso
+    ?[31mWhen ?[0m?[31mRegistration of the form is carried out?[0m  ?[90m# FormsStepDefinitions.registrationOfTheFormIsCarriedOut(DataTable)?[0m
+      ?[31morg.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button id=&quot;submit&quot; type=&quot;submit&quot; class=&quot;btn btn-primary&quot;&gt;...&lt;/button&gt; is not clickable at point (890, 524). Other element would receive the click: &lt;iframe frameborder=&quot;0&quot; src=&quot;https://4fbe36307f8f2cc5fc03158536294989.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html&quot; id=&quot;google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0&quot; title=&quot;3rd party ad content&quot; name=&quot;&quot; scrolling=&quot;no&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=&quot;970&quot; height=&quot;90&quot; data-is-safeframe=&quot;true&quot; sandbox=&quot;allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation&quot; role=&quot;region&quot; aria-label=&quot;Advertisement&quot; tabindex=&quot;0&quot; data-google-container-id=&quot;1&quot; style=&quot;border: 0px; vertical-align: bottom;&quot; data-load-complete=&quot;true&quot;&gt;&lt;/iframe&gt;
+  (Session info: chrome=120.0.6099.71)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BOG-59S3TQ3', ip: '192.168.1.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.71, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\jpedraze\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54839}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9c36a841347983b040a9eb9de38658ef
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.click(WebElementFacadeImpl.java:1231)
+	at net.serenitybdd.screenplay.actions.ClickOnTarget.performAs(ClickOnTarget.java:13)
+	at net.serenitybdd.screenplay.actions.ClickOnTarget$ByteBuddy$ajR4jwxf.performAs$accessor$poSlrb6w(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:471)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:451)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:424)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:180)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:167)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:75)
+	at net.serenitybdd.screenplay.actions.ClickOnTarget$ByteBuddy$ajR4jwxf.performAs(Unknown Source)
+	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:233)
+	at net.serenitybdd.screenplay.Actor.perform(Actor.java:214)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:171)
+	at org.ilana.my.demo.tasks.Forms.performAs(Forms.java:81)
+	at org.ilana.my.demo.tasks.Forms$ByteBuddy$kevghV1L.performAs$accessor$dQH8zWYS(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:471)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:451)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:424)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:180)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:167)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:75)
+	at org.ilana.my.demo.tasks.Forms$ByteBuddy$kevghV1L.performAs(Unknown Source)
+	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:233)
+	at net.serenitybdd.screenplay.Actor.perform(Actor.java:214)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:171)
+	at org.ilana.my.demo.stepdefinitions.FormsStepDefinitions.registrationOfTheFormIsCarriedOut(FormsStepDefinitions.java:23)
+	at ?.Registration of the form is carried out(src/test/resources/features/DemoUno.feature:11)
+?[0m
+</pre>
+</span>
+</div>
+<div id="tab3" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@6bcff834
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@7412a5a4
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@8bcc309
+dic. 31, 2023 10:07:48 P. M. org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized --disable..., goog:chromeOptions: {args: [--start-maximized, --disable-notifications, --incognito], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+Starting ChromeDriver 119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103}) on port 22335
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1704078470.216][WARNING]: This version of ChromeDriver has not been tested with Chrome version 120.
+dic. 31, 2023 10:07:50 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:registration is done in forms:Given user enters the demo page [Bryan open browser [Bryan opens the Home page]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:registration is done in forms:Given user enters the demo page [Bryan open browser [Bryan opens the Home page]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:registration is done in forms:Given user enters the demo page [Bryan open browser [Bryan opens the Home page]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@4d0c6a8
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@4dac332
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:registration is done in forms:Given user enters the demo page [Bryan open browser [Bryan opens the Home page]], When a user fills out the login form correctly [Bryan home]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:registration is done in forms:Given user enters the demo page [Bryan open browser [Bryan opens the Home page]], When a user fills out the login form correctly [Bryan home]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@5e63063d
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@4439dae
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:registration is done in forms:Given user enters the demo page [Bryan open browser [Bryan opens the Home page]], When a user fills out the login form correctly [Bryan home], Then the home successful [Then login success]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:registration is done in forms:Given user enters the demo page [Bryan open browser [Bryan opens the Home page]], When a user fills out the login form correctly [Bryan home], Then the home successful [Then login success]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@63de92ee
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@18910e4b
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@48e6ae4e
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:registration is done in forms:Given user enters the demo page [Bryan open browser [Bryan opens the Home page]], When a user fills out the login form correctly [Bryan home], Then the home successful [Then login success], When link verification process [Bryan links [Bryan wait for element]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@2e73fc3b
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:registration is done in forms:Given user enters the demo page [Bryan open browser [Bryan opens the Home page]], When a user fills out the login form correctly [Bryan home], Then the home successful [Then login success], When link verification process [Bryan links [Bryan wait for element, Bryan clicks on div Elements]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@17b3dbb5
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:registration is done in forms:Given user enters the demo page [Bryan open browser [Bryan opens the Home page]], When a user fills out the login form correctly [Bryan home], Then the home successful [Then login success], When link verification process [Bryan links [Bryan wait for element, Bryan clicks on div Elements, Bryan wait for element]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@aa7229f
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:registration is done in forms:Given user enters the demo page [Bryan open browser [Bryan opens the Home page]], When a user fills out the login form correctly [Bryan home], Then the home successful [Then login success], When link verification process [Bryan links [Bryan wait for element, Bryan clicks on div Elements, Bryan wait for element, Bryan clicks on span Links]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@48d43a6d
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:registration is done in forms:Given user enters the demo page [Bryan open browser [Bryan opens the Home page]], When a user fills out the login form correctly [Bryan home], Then the home successful [Then login success], When link verification process [Bryan links [Bryan wait for element, Bryan clicks on div Elements, Bryan wait for element, Bryan clicks on span Links, Bryan wait for element]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@362019d5
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:registration is done in forms:Given user enters the demo page [Bryan open browser [Bryan opens the Home page]], When a user fills out the login form correctly [Bryan home], Then the home successful [Then login success], When link verification process [Bryan links [Bryan wait for element, Bryan clicks on div Elements, Bryan wait for element, Bryan clicks on span Links, Bryan wait for element, Bryan Switching to new Window]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@569b7312
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:registration is done in forms:Given user enters the demo page [Bryan open browser [Bryan opens the Home page]], When a user fills out the login form correctly [Bryan home], Then the home successful [Then login success], When link verification process [Bryan links [Bryan wait for element, Bryan clicks on div Elements, Bryan wait for element, Bryan clicks on span Links, Bryan wait for element, Bryan Switching to new Window, Bryan wait for element]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@2e8966df
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:registration is done in forms:Given user enters the demo page [Bryan open browser [Bryan opens the Home page]], When a user fills out the login form correctly [Bryan home], Then the home successful [Then login success], When link verification process [Bryan links [Bryan wait for element, Bryan clicks on div Elements, Bryan wait for element, Bryan clicks on span Links, Bryan wait for element, Bryan Switching to new Window, Bryan wait for element, Bryan clicks on div Elements]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@64fd7fbf
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:registration is done in forms:Given user enters the demo page [Bryan open browser [Bryan opens the Home page]], When a user fills out the login form correctly [Bryan home], Then the home successful [Then login success], When link verification process [Bryan links [Bryan wait for element, Bryan clicks on div Elements, Bryan wait for element, Bryan clicks on span Links, Bryan wait for element, Bryan Switching to new Window, Bryan wait for element, Bryan clicks on div Elements, Bryan Switching to new Window]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@28546e14
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:registration is done in forms:Given user enters the demo page [Bryan open browser [Bryan opens the Home page]], When a user fills out the login form correctly [Bryan home], Then the home successful [Then login success], When link verification process [Bryan links [Bryan wait for element, Bryan clicks on div Elements, Bryan wait for element, Bryan clicks on span Links, Bryan wait for element, Bryan Switching to new Window, Bryan wait for element, Bryan clicks on div Elements, Bryan Switching to new Window, Bryan wait for element]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@4dbc92f7
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:registration is done in forms:Given user enters the demo page [Bryan open browser [Bryan opens the Home page]], When a user fills out the login form correctly [Bryan home], Then the home successful [Then login success], When link verification process [Bryan links [Bryan wait for element, Bryan clicks on div Elements, Bryan wait for element, Bryan clicks on span Links, Bryan wait for element, Bryan Switching to new Window, Bryan wait for element, Bryan clicks on div Elements, Bryan Switching to new Window, Bryan wait for element, Bryan clicks on div Elements]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@48c96981
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:registration is done in forms:Given user enters the demo page [Bryan open browser [Bryan opens the Home page]], When a user fills out the login form correctly [Bryan home], Then the home successful [Then login success], When link verification process [Bryan links [Bryan wait for element, Bryan clicks on div Elements, Bryan wait for element, Bryan clicks on span Links, Bryan wait for element, Bryan Switching to new Window, Bryan wait for element, Bryan clicks on div Elements, Bryan Switching to new Window, Bryan wait for element, Bryan clicks on div Elements, Bryan wait for element]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@5e918a5e
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:registration is done in forms:Given user enters the demo page [Bryan open browser [Bryan opens the Home page]], When a user fills out the login form correctly [Bryan home], Then the home successful [Then login success], When link verification process [Bryan links [Bryan wait for element, Bryan clicks on div Elements, Bryan wait for element, Bryan clicks on span Links, Bryan wait for element, Bryan Switching to new Window, Bryan wait for element, Bryan clicks on div Elements, Bryan Switching to new Window, Bryan wait for element, Bryan clicks on div Elements, Bryan wait for element, Bryan clicks on link Response]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@539d8c9f
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:registration is done in forms:Given user enters the demo page [Bryan open browser [Bryan opens the Home page]], When a user fills out the login form correctly [Bryan home], Then the home successful [Then login success], When link verification process [Bryan links [Bryan wait for element, Bryan clicks on div Elements, Bryan wait for element, Bryan clicks on span Links, Bryan wait for element, Bryan Switching to new Window, Bryan wait for element, Bryan clicks on div Elements, Bryan Switching to new Window, Bryan wait for element, Bryan clicks on div Elements, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@238ae265
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:registration is done in forms:Given user enters the demo page [Bryan open browser [Bryan opens the Home page]], When a user fills out the login form correctly [Bryan home], Then the home successful [Then login success], When link verification process [Bryan links [Bryan wait for element, Bryan clicks on div Elements, Bryan wait for element, Bryan clicks on span Links, Bryan wait for element, Bryan Switching to new Window, Bryan wait for element, Bryan clicks on div Elements, Bryan Switching to new Window, Bryan wait for element, Bryan clicks on div Elements, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link Response]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@7a15e263
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:registration is done in forms:Given user enters the demo page [Bryan open browser [Bryan opens the Home page]], When a user fills out the login form correctly [Bryan home], Then the home successful [Then login success], When link verification process [Bryan links [Bryan wait for element, Bryan clicks on div Elements, Bryan wait for element, Bryan clicks on span Links, Bryan wait for element, Bryan Switching to new Window, Bryan wait for element, Bryan clicks on div Elements, Bryan Switching to new Window, Bryan wait for element, Bryan clicks on div Elements, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@149cf7fc
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:registration is done in forms:Given user enters the demo page [Bryan open browser [Bryan opens the Home page]], When a user fills out the login form correctly [Bryan home], Then the home successful [Then login success], When link verification process [Bryan links [Bryan wait for element, Bryan clicks on div Elements, Bryan wait for element, Bryan clicks on span Links, Bryan wait for element, Bryan Switching to new Window, Bryan wait for element, Bryan clicks on div Elements, Bryan Switching to new Window, Bryan wait for element, Bryan clicks on div Elements, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link Response]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@68e79594
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:registration is done in forms:Given user enters the demo page [Bryan open browser [Bryan opens the Home page]], When a user fills out the login form correctly [Bryan home], Then the home successful [Then login success], When link verification process [Bryan links [Bryan wait for element, Bryan clicks on div Elements, Bryan wait for element, Bryan clicks on span Links, Bryan wait for element, Bryan Switching to new Window, Bryan wait for element, Bryan clicks on div Elements, Bryan Switching to new Window, Bryan wait for element, Bryan clicks on div Elements, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@2f627a37
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:registration is done in forms:Given user enters the demo page [Bryan open browser [Bryan opens the Home page]], When a user fills out the login form correctly [Bryan home], Then the home successful [Then login success], When link verification process [Bryan links [Bryan wait for element, Bryan clicks on div Elements, Bryan wait for element, Bryan clicks on span Links, Bryan wait for element, Bryan Switching to new Window, Bryan wait for element, Bryan clicks on div Elements, Bryan Switching to new Window, Bryan wait for element, Bryan clicks on div Elements, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link Response]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@25c39e68
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:registration is done in forms:Given user enters the demo page [Bryan open browser [Bryan opens the Home page]], When a user fills out the login form correctly [Bryan home], Then the home successful [Then login success], When link verification process [Bryan links [Bryan wait for element, Bryan clicks on div Elements, Bryan wait for element, Bryan clicks on span Links, Bryan wait for element, Bryan Switching to new Window, Bryan wait for element, Bryan clicks on div Elements, Bryan Switching to new Window, Bryan wait for element, Bryan clicks on div Elements, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@2507872f
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:registration is done in forms:Given user enters the demo page [Bryan open browser [Bryan opens the Home page]], When a user fills out the login form correctly [Bryan home], Then the home successful [Then login success], When link verification process [Bryan links [Bryan wait for element, Bryan clicks on div Elements, Bryan wait for element, Bryan clicks on span Links, Bryan wait for element, Bryan Switching to new Window, Bryan wait for element, Bryan clicks on div Elements, Bryan Switching to new Window, Bryan wait for element, Bryan clicks on div Elements, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link Response]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@7fada8ea
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:registration is done in forms:Given user enters the demo page [Bryan open browser [Bryan opens the Home page]], When a user fills out the login form correctly [Bryan home], Then the home successful [Then login success], When link verification process [Bryan links [Bryan wait for element, Bryan clicks on div Elements, Bryan wait for element, Bryan clicks on span Links, Bryan wait for element, Bryan Switching to new Window, Bryan wait for element, Bryan clicks on div Elements, Bryan Switching to new Window, Bryan wait for element, Bryan clicks on div Elements, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@4a79df3a
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:registration is done in forms:Given user enters the demo page [Bryan open browser [Bryan opens the Home page]], When a user fills out the login form correctly [Bryan home], Then the home successful [Then login success], When link verification process [Bryan links [Bryan wait for element, Bryan clicks on div Elements, Bryan wait for element, Bryan clicks on span Links, Bryan wait for element, Bryan Switching to new Window, Bryan wait for element, Bryan clicks on div Elements, Bryan Switching to new Window, Bryan wait for element, Bryan clicks on div Elements, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link Response]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@35c9c27c
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:registration is done in forms:Given user enters the demo page [Bryan open browser [Bryan opens the Home page]], When a user fills out the login form correctly [Bryan home], Then the home successful [Then login success], When link verification process [Bryan links [Bryan wait for element, Bryan clicks on div Elements, Bryan wait for element, Bryan clicks on span Links, Bryan wait for element, Bryan Switching to new Window, Bryan wait for element, Bryan clicks on div Elements, Bryan Switching to new Window, Bryan wait for element, Bryan clicks on div Elements, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@5f3ab6a8
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:registration is done in forms:Given user enters the demo page [Bryan open browser [Bryan opens the Home page]], When a user fills out the login form correctly [Bryan home], Then the home successful [Then login success], When link verification process [Bryan links [Bryan wait for element, Bryan clicks on div Elements, Bryan wait for element, Bryan clicks on span Links, Bryan wait for element, Bryan Switching to new Window, Bryan wait for element, Bryan clicks on div Elements, Bryan Switching to new Window, Bryan wait for element, Bryan clicks on div Elements, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link Response]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@4bd8587a
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:registration is done in forms:Given user enters the demo page [Bryan open browser [Bryan opens the Home page]], When a user fills out the login form correctly [Bryan home], Then the home successful [Then login success], When link verification process [Bryan links [Bryan wait for element, Bryan clicks on div Elements, Bryan wait for element, Bryan clicks on span Links, Bryan wait for element, Bryan Switching to new Window, Bryan wait for element, Bryan clicks on div Elements, Bryan Switching to new Window, Bryan wait for element, Bryan clicks on div Elements, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@a1858f6
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:registration is done in forms:Given user enters the demo page [Bryan open browser [Bryan opens the Home page]], When a user fills out the login form correctly [Bryan home], Then the home successful [Then login success], When link verification process [Bryan links [Bryan wait for element, Bryan clicks on div Elements, Bryan wait for element, Bryan clicks on span Links, Bryan wait for element, Bryan Switching to new Window, Bryan wait for element, Bryan clicks on div Elements, Bryan Switching to new Window, Bryan wait for element, Bryan clicks on div Elements, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link alfabetico]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:registration is done in forms:Given user enters the demo page [Bryan open browser [Bryan opens the Home page]], When a user fills out the login form correctly [Bryan home], Then the home successful [Then login success], When link verification process [Bryan links [Bryan wait for element, Bryan clicks on div Elements, Bryan wait for element, Bryan clicks on span Links, Bryan wait for element, Bryan Switching to new Window, Bryan wait for element, Bryan clicks on div Elements, Bryan Switching to new Window, Bryan wait for element, Bryan clicks on div Elements, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link alfabetico]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:registration is done in forms:Given user enters the demo page [Bryan open browser [Bryan opens the Home page]], When a user fills out the login form correctly [Bryan home], Then the home successful [Then login success], When link verification process [Bryan links [Bryan wait for element, Bryan clicks on div Elements, Bryan wait for element, Bryan clicks on span Links, Bryan wait for element, Bryan Switching to new Window, Bryan wait for element, Bryan clicks on div Elements, Bryan Switching to new Window, Bryan wait for element, Bryan clicks on div Elements, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link alfabetico]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - testFinished: registration is done in forms:Given user enters the demo page [Bryan open browser [Bryan opens the Home page]], When a user fills out the login form correctly [Bryan home], Then the home successful [Then login success], When link verification process [Bryan links [Bryan wait for element, Bryan clicks on div Elements, Bryan wait for element, Bryan clicks on span Links, Bryan wait for element, Bryan Switching to new Window, Bryan wait for element, Bryan clicks on div Elements, Bryan Switching to new Window, Bryan wait for element, Bryan clicks on div Elements, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link alfabetico]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - TestOutcomes: [registration is done in forms:Given user enters the demo page [Bryan open browser [Bryan opens the Home page]], When a user fills out the login form correctly [Bryan home], Then the home successful [Then login success], When link verification process [Bryan links [Bryan wait for element, Bryan clicks on div Elements, Bryan wait for element, Bryan clicks on span Links, Bryan wait for element, Bryan Switching to new Window, Bryan wait for element, Bryan clicks on div Elements, Bryan Switching to new Window, Bryan wait for element, Bryan clicks on div Elements, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link alfabetico]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - Final testOutcomes: [registration is done in forms:Given user enters the demo page [Bryan open browser [Bryan opens the Home page]], When a user fills out the login form correctly [Bryan home], Then the home successful [Then login success], When link verification process [Bryan links [Bryan wait for element, Bryan clicks on div Elements, Bryan wait for element, Bryan clicks on span Links, Bryan wait for element, Bryan Switching to new Window, Bryan wait for element, Bryan clicks on div Elements, Bryan Switching to new Window, Bryan wait for element, Bryan clicks on div Elements, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link Response, Bryan wait for element, Bryan clicks on link alfabetico]]]
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: registration is done in forms
+----------------------------------------------------------------------------
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@2cb8786b
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@7e62793c
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@7c5f31a
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@4cc4df02
+dic. 31, 2023 10:09:01 P. M. org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized --disable..., goog:chromeOptions: {args: [--start-maximized, --disable-notifications, --incognito], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+Starting ChromeDriver 119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103}) on port 47079
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1704078542.378][WARNING]: This version of ChromeDriver has not been tested with Chrome version 120.
+dic. 31, 2023 10:09:02 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Test outcome unavailable:
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Test outcome unavailable:
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Test outcome unavailable:
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@5b701b1b
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@3e2e171c
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@681f3cb2
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Test outcome unavailable:
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Test outcome unavailable:
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@6641b30b
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@578350c8
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@8f5c1f5
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Test outcome unavailable:
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Test outcome unavailable:
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@588d7448
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@52cee8d9
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@3d6923a3
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@31ec1bb7
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Test outcome unavailable:
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@3eafc004
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Test outcome unavailable:
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@7754e393
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Test outcome unavailable:
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@44e0036
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Test outcome unavailable:
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@4352f741
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Test outcome unavailable:
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@4f72cef6
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Test outcome unavailable:
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@4cab140a
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Test outcome unavailable:
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@1c23c5b4
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Test outcome unavailable:
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@4cf5506c
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Test outcome unavailable:
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@20e180cc
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Test outcome unavailable:
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@66c34708
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Test outcome unavailable:
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@3018e93f
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Test outcome unavailable:
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@176e40a
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Test outcome unavailable:
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@2df58672
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Test outcome unavailable:
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@72ee0799
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Test outcome unavailable:
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@52f6b0cc
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Test outcome unavailable:
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@4c52f2e4
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Test outcome unavailable:
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@16e7f4eb
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Test outcome unavailable:
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@25ff5bc1
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Test outcome unavailable:
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@4a5332aa
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Test outcome unavailable:
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@71167278
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Test outcome unavailable:
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@606bad3b
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Test outcome unavailable:
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@6d041177
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Test outcome unavailable:
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@728231ba
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@493d4462
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.1.1</a> at 31/12/2023, 10:09:39 p. m.</p>
+</div>
+</div>
+</body>
+</html>
